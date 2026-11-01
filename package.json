@@ -1,0 +1,28 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "WhatsApp AI Agent powered by Google Gemini and ChatGPT",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "ai",
+    "gemini",
+    "chatgpt",
+    "baileys",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "openai": "^4.86.1",
+    "dotenv": "^16.4.7",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.6.0"
+  }
+}
